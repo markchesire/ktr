@@ -1,0 +1,437 @@
+@CHARSET "UTF-8";01999P
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+form, label, 
+table, caption, tbody, tfoot, thead, tr, th {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+ ul { list-style: square outside none; }
+table { border-collapse:collapse; border-spacing: 0; width:100%;}
+caption, th, td { font-weight: normal; 	padding: 2px 20px 2px 0px; }
+blockquote:before,
+blockquote:after,
+q:before,
+q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+abbr,acronym { 	border:0; }
+body{
+	background-color:#fff;
+	font:78.25%/1.231  'Trebuchet Ms',tahoma,verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333;
+	line-height:2;
+	margin: 0 auto;	
+}
+
+a
+{
+	text-decoration:none !important;
+	border-style:none;
+}
+a:hover
+{
+	text-decoration:none !important;
+	border-style:none;
+}
+#page
+{
+	margin-top:10px;
+	margin-bottom: 5px;
+	background: #ffffff;
+	height:400px;
+	font-size:20px;
+}
+#page.container
+{
+	margin-top:55px;
+	padding-right:60px;
+	margin-left:119px;
+	background-color:#f5f5f5;
+	width:1055px;
+	height:600px;
+	font:78.25%/1.231  'Trebuchet Ms',tahoma,verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333;
+}
+#content
+{
+	margin-top:-30px;
+	margin-left:-75px;
+}
+#contents-page
+{
+	padding: 10px;
+	font-size: 200%;
+}
+#page #mainmenu ul
+{
+	border:0px solid teal;
+	top:75px;
+}
+#page #mainmenu ul ul
+{
+	padding:10px 20px;
+	margin-left:0px;
+	top:38px;
+	background-color:#efefef;
+	
+}
+#page #mainmenu ul li
+{
+	display: inline;
+	margin-left:-10px;
+}
+
+#page #mainmenu ul li a
+{
+	color:green;
+	background-color:#dedede;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:3px 7px;
+	text-transform:uppercase;
+	background-image: -webkit-gradient(linear, center top, left bottom, from(#efefef), to(#bbb))!important;
+	background-image: -webkit-linear-gradient(center top , #efefef 0%, #bbb 95%, #efefef 97%, #555 100%)!important;
+	background-image:    -moz-linear-gradient(center top , #efefef 0%, #bbb 95%, #efefef 97%, #555 100%)!important;
+	background-image:     -ms-linear-gradient(center top , #efefef 0%, #bbb 95%, #efefef 97%, #555 100%)!important;
+	background-image:      -o-linear-gradient(center top , #efefef 0%, #bbb 95%, #efefef 97%, #555 100%)!important;
+	background-image:         linear-gradient(center top , #efefef 0%, #bbb 95%, #efefef 97%, #555 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#efefef', EndColorStr='#dedede')!important;
+}
+
+#page #mainmenu ul ul li a
+{
+	color:green;
+	background:#efefef;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+	padding:3px 7px;
+	text-transform:inherit;
+	background-image: -webkit-gradient(linear, center top, left bottom, from(#efefef), to(#efefef))!important;
+	background-image: -webkit-linear-gradient(center top , #efefef 0%, #efefef 95%, #efefef 97%, #fff 100%)!important;
+	background-image:    -moz-linear-gradient(center top , #efefef 0%, #efefef 95%, #efefef 97%, #fff 100%)!important;
+	background-image:     -ms-linear-gradient(center top , #efefef 0%, #efefef 95%, #efefef 97%, #fff 100%)!important;
+	background-image:      -o-linear-gradient(center top , #efefef 0%, #efefef 95%, #efefef 97%, #fff 100%)!important;
+	background-image:         linear-gradient(center top , #efefef 0%, #efefef 95%, #efefef 97%, #fff 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#efefef', EndColorStr='#efefef')!important;
+}
+
+#page #mainmenu ul li a:hover
+{
+	color:#ffffff !important;
+	background-color:#ffffff !important;
+	background-image: -webkit-gradient(linear, center top, left bottom, from(#fff), to(#bbb))!important;
+	background-image: -webkit-linear-gradient(center top , #fff 0%, #bbb 95%, #efefef 97%, #fff 100%)!important;
+	background-image:    -moz-linear-gradient(center top , #fff 0%, #bbb 95%, #efefef 97%, #fff 100%)!important;
+	background-image:     -ms-linear-gradient(center top , #fff 0%, #bbb 95%, #efefef 97%, #fff 100%)!important;
+	background-image:      -o-linear-gradient(center top , #fff 0%, #bbb 95%, #efefef 97%, #fff 100%)!important;
+	background-image:         linear-gradient(center top , #fff 0%, #bbb 95%, #efefef 97%, #fff 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#efefef', EndColorStr='#555')!important;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+
+
+
+
+.navbar .brand
+ {
+	height:90px;
+	width:390px;
+	margin-left:-55px !important;
+}
+
+#header-portal
+{
+	z-index: 10;
+    color: #8064a1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	display: block;
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 290px;
+	margin-right: 5px;
+	margin-top: 15px;
+	width: 455px;
+	font-family:trebuchet ms,arial,helvetica,clean,sans-serif;
+	letter-spacing:-1px;
+}
+
+
+#portal-login-header{
+	color:green;
+	font-size:20px;
+	width:483px;
+	padding-left:5px;
+}
+#icon-home{
+	color:#F0677C;
+}
+#icon-flag{
+	color:#F0677C;
+}
+.enter-admission:hover
+{
+	background-color:#000000;
+	color:#fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	font-size:16px;
+}
+#student-notices{
+	color:#F0677C;
+}
+#notices-style{
+	color:#000000;
+	font-style:normal;
+	font-size:16px;
+	letter-spacing:2px;
+}
+#student-login-page-content1{
+	height:550px;
+	background-color:#e5ba3a;
+	padding-left:5px;
+}
+#dashboard-right{
+	width:766px;
+	height:550px;
+	background-color:;
+	padding-left:5px;
+}
+#dashboard{
+	width:210px;
+	height:550px;
+	background-color:#e5ba3a;
+	padding-left:5px;
+}
+
+#fee-login-page-content1{
+	width:300px;
+	height:550px;
+	background-color:#e5ba3a;
+	padding-left:5px;
+}
+#parents-login-page-content1{
+	height:550px;
+	background-color:#e5ba3a;
+	padding-left:5px;
+}
+#more-info{
+	color:#ffffff;
+}
+#student-portal-login1{
+	z-index: 10;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	font-size: 25px;
+	padding-top:100px;
+	padding-left:80px;
+}
+#staff-portal-login1{
+	z-index: 10;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	font-size: 20px;
+	padding-top:;
+	margin-left:0px;
+	margin-top:150px;
+}
+#parents-portal-login1{
+	z-index: 10;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	font-size: 17px;
+	padding-top:70px;
+	padding-left:0px;
+	width:230px;
+	text-transform:uppercase;
+}
+#parents-second-name{
+	z-index: 10;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	font-size: 17px;
+	padding-top:;
+	padding-left:;
+	text-transform:uppercase;
+}
+#placeholder{
+	margin-left:100px;
+    margin-top:20px;
+	height:50px;
+	width:200px;
+	text-transform:uppercase;
+}
+#parents-placeholder{
+	margin-left:220px;
+    margin-top:-380px;
+	height:50px;
+	width:255px;
+	text-transform:;
+}
+#placeholder-second-name{
+	margin-left:220px;
+    margin-top:-300px;
+	height:50px;
+	width:255px;
+	text-transform:;
+}
+#id-number-placeholder{
+	margin-left:220px;
+    margin-top:-220px;
+	height:50px;
+	width:255px;
+	text-transform:;
+}
+#username-holder{
+	z-index: 10;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	font-size: 17px;
+	margin-top: 50px;
+	text-transform:uppercase;
+}
+#password-holder{
+	z-index: 10;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	font-size: 17px;
+	margin-top: 0px;
+	text-transform:uppercase;
+}
+#placeholder-username{
+	margin-left:200px;
+    margin-top:-200px;
+	height:50px;
+	width:255px;
+	text-transform:;
+}
+#placeholder-password{
+	margin-left:200px;
+    margin-top:-150px;
+	height:50px;
+	width:255px;
+	text-transform:;
+}
+#button-submit{
+	margin-left:100px;
+	height:50px;
+	width:260px;
+}
+#parents-button-submit{
+	margin-left:110px;
+	margin-top:-50px;
+	height:50px;
+	width:260px;
+	box-shadow: 0 9px #999;
+}
+#staff-button-submit{
+	margin-left:110px;
+	margin-top:0px;
+	height:50px;
+	width:260px;
+	box-shadow: 0 9px #999;
+}
+#submit-text{
+	font-size: 25px;
+	z-index: 10;
+	color: #fff;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	margin-top:0px;
+}
+#fans-error-return2{
+	padding:5px;
+	text-align:center;
+	text-transform:uppercase;
+	color:#ff0000;
+	padding-top:8px;
+	margin-left:90px;
+	background-color:#ffe6e6;
+	border-radius:10px;
+}
+
+#decor-style{
+	color:green;
+	font-style:italic;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.moi{
+	color:#ffffff;
+	font-size:28px;
+	padding:10px;
+}
+table{
+font-family: arial, sans-serif;
+border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#table-row:hover{
+    background-color:#004d00;
+}
+#td1{
+background-color:#ccccb3;
+}
+#td1:hover{
+background-color:#004d00;
+}
+#student-data{
+	width:660px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	font-size:20px;
+}
+#student-data1{
+	width:220px;
+	margin-left:220px;
+	margin-top:-29px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	font-size:20px;
+}
+#student-data2{
+	width:220px;
+	margin-left:440px;
+	margin-top:-29px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	font-size:20px;
+}
+#student-data3{
+	margin-left:0px;
+	width:330px;
+	background-color:#f5f5f5;
+	padding:4px;
+}
+
+#fee-table{
+margin-left:-50px;
+width:300px;
+}
+#fee-content-table{
+	margin-left:74px;
+	width:700px;
+}
+#fee-notice{
+color:#ff0000;
+}
+#student-data-details{
+margin-left:0px;
+margin-right:5px;
+width:660px;
+padding-right:2px;
+}

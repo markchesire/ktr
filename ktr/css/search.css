@@ -1,0 +1,40 @@
+form {
+                width:500px;
+				margin-left:865px;
+				margin-top:2px;
+                
+}
+.search {
+                padding:8px 15px;
+                background:#000000;
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:0px solid #40ff00;
+                background-color:#207cca;
+                color:;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+::-webkit-input-placeholder { /* For WebKit browsers */
+    color:#ff0000;
+    font-family:Helvetica Neue;
+    font-weight:bold;
+}
+
+:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+    color:#ff0000;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+
+::-moz-placeholder { /* For Mozilla Firefox 19+ */
+    color:#ff0000;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
